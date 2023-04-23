@@ -80,40 +80,37 @@
     color: white;
     display: flex;
   }
-  .address-email {
-    width: 316px;
-  }
-  .address-phone {
-    width: 163px;
-  }
-  .address-kol {
-    width: 270px;
+  .address li {
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
   }
   .mobile-email {
-    width: 25px;
+    width: 281px;
     height: 25px;
     background-image: url(images/email-logo.svg);
+    background-repeat: no-repeat;
   }
   .mobile-phone {
-    width: 25px;
+    width: 135px;
     height: 25px;
     background-image: url(images/phone.svg);
+    background-repeat: no-repeat;
   }
   .mobile-kol {
-    width: 25px;
+    width: 275px;
     height: 25px;
     background-image: url(images/location.svg);
+    background-repeat: no-repeat;
   }
   .header-top a {
-    height: 25px;
     position: absolute;
     text-decoration: none;
     color: white;
     font-size: 14px;
     padding-left: 35px;
-    padding-right: 30px;
-    line-height: 29.5px;
     display: flex;
+    justify-content: center;
   }
   .address-ridht {
     width: 25%;
@@ -127,6 +124,8 @@
     width: 108px;
     height: 25px;
     left: 210px;
+    align-items: center;
+    display: flex;
   }
   .polo-img {
     width: 12px;
@@ -134,10 +133,9 @@
     background-image: url(images/arrow-white.svg);
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 10px;
   }
   .header-button {
-    width: 100%;
     height: 85px;
     display: flex;
     align-items: center;
@@ -147,19 +145,42 @@
   }
   .logo-menu {
     display: flex;
-    width: 898px;
     height: 50px;
-    right: 5px;
-    position: absolute;
+    padding-left: 190px;
+    align-items: center;
+  }
+  .logo-menu li {
+    position: relative;
+    margin-right: 44px;
+  }
+  .logo-menu-home {
+    width: 62px;
+    position: relative;
+  }
+  .logo-menu-company {
+    width: 87px;
+    position: relative;
+  }
+  .logo-menu-services {
+    width: 78px;
+    position: relative;
+  }
+  .logo-menu-project {
+    width: 71px;
+    position: relative;
+  }
+  .logo-menu-blog {
+    width: 52px;
+    position: relative;
+  }
+  .logo-menu-contact {
+    width: 75px;
   }
   .logo-menu a {
-    display: block;
-    width: 105px;
     font-size: 16px;
     line-height: 42.5px;
     color: #212529;
     text-decoration: none;
-    position: relative;
   }
   .logo-arrow {
     display: block;
@@ -167,8 +188,8 @@
     height: 6.84px;
     background-image: url(images/arrow-black.svg);
     position: absolute;
-    top: 18px;
-    right: 10px;
+    right: 3px;
+    top: 19px;
   }
   .logo-menu a:hover {
     color: #00730C;
@@ -190,23 +211,17 @@
     position: absolute;
   }
   .logo-call-img {
-    display: block;
-    width: 30px;
     height: 30px;
     background-position: center;
     background-image: url(images/group.svg);
     background-repeat: no-repeat;
-    position: relative;
-    padding-right: 34.5px;
-    padding-left: 34.5px;
+    padding-left: 55px;
   }
   .logo-call a {
     font-size: 18px;
     font-family: "Nunito", sans-serif;
-    line-height: 50px;
     color: white;
     text-decoration: none;
-    position: relative;
   }
   .hero-left {
     display: flex;
@@ -230,16 +245,20 @@
   .hero-left-menu a {
     text-decoration: none;
   }
+  .hero-left-menu-logo {
+    display: flex;
+    align-items: center;
+  }
+  .hero-left-menu-logo a {
+    color: #212529;
+    font-size: 16px;
+  }
   .hero-left-menu-img {
     display: flex;
-    width: 250px;
     height: 20px;
     background-image: url(images/vector.svg);
     background-repeat: no-repeat;
     padding-left: 30px;
-    color: #212529;
-    font-size: 16px;
-    align-items: center;
   }
   .hero-logo {
     height: 173px;
@@ -295,5 +314,34 @@
     position: absolute;
     top: 320px;
     left: 350px;
+  }
+  .hero-left-circle {
+    display: flex;
+    line-height: 20px;
+  }
+  .hero-left-circle li {
+    padding-right: 10px;
+  }
+  .hero-circle {
+    width: 149px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-circle-figure {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+    border-radius: 50%;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  .hero-circle a {
+    width: 89px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #212529;
+    padding-left: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
