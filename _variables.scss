@@ -1,5 +1,13 @@
 * {
     box-sizing: border-box;
 }
-
+.conteiner {
+    max-width: 1120px;
+    width: 100%;
+    
+}
 $green-text: #00730C;
+
+.hero {
+    background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+}
