@@ -93,14 +93,14 @@
      padding-right: 5px;
      font-family: 'Nunito', sans-serif; 
  }  
+ .logo {
+    width: 90px;
+ }
  .header-logo {
     width: 90px;
     height: 40px;
     
     display: flex;
-//  }
- 
-//  .logo {
     
     background-image: url(images/logo-mobile.svg);
     
@@ -118,7 +118,7 @@
      background-color: #00730C;
      align-items: center;
      display: flex;
-    
+    margin-left: 149px;
  }
  
  
@@ -251,8 +251,6 @@
     width: 120px;
     height: 55px;
     display: flex;
-// }
-// .logo {
   
     background-image: url(images/logo.svg);
     background-repeat: no-repeat;
@@ -325,7 +323,7 @@
     background-color: #00730C;
     align-items: center;
     display: flex;
-   
+   margin-left: 0;
    
 }
 

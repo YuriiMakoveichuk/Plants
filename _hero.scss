@@ -9,20 +9,106 @@
     height: 240px;
     background-image: url(images/img-mobile.svg);
     background-repeat: no-repeat;
-    top: -182px;
+  
     position: relative;
+   
 }
 .hero-left-menu {
-    width: 375px;
+    width: 346px;
   
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: relative;
-    top: 240px;
+   
     font-family: 'Nunito', sans-serif; 
+    
+}
+.hero-left-menu a {
+    text-decoration: none;
+   
+} 
+.hero-left-menu-logo {
+    display: flex;
+    
+}
+.hero-left-menu-logo a {
+    color: #212529;
+    font-size: 14px;
 }
 
+.hero-left-menu-img { 
+    display: flex;
+    height: 20px;
+    background-image: url(images/vector.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;   
+} 
+.hero-logo {
+    height: 76px;
+    margin-top:  10px;
+    margin-bottom:  15px;
+}   
+.hero-top {
+    margin-bottom: 40px;
+} 
+.hero-logo a {
+    color: #212529;
+    font-size: 28px;
+    line-height: 38px;
+   
+  
+}
+.hero-logo b {
+    position: relative;
+    color: #00730C;
+   
+    
+}
 
+.hero-left-menu p {
+    color: #676767;
+    font-size: 14px;
+    line-height: 22px;
+  
+}
+.logo-call-quate {
+    width: 303px;
+    height: 44px;
+    background-color: #00730C;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 21px;
+}
+.logo-call-arrow {
+    display: flex;
+    align-items: center;
+   padding-left: 105px;
+   padding-top: 20px;
+ }
+ 
+.logo-call-quate a {
+    font-size: 16px;
+    font-family:'Nunito', sans-serif ;
+    color: white;
+    text-decoration: none;   
+    display: block;
+}
+.logo-quate p {
+    color: #00730C;
+    padding-right: 12px;
+}
+.logo-quate-arrow {
+    width: 16px;
+    height: 13px;
+    background-image: url(images/arrow-green-mobile.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 12px;
+}
+.hero-none {
+    display: none;
+}
 
 @media(min-width:1120px) { 
 
@@ -72,20 +158,20 @@
  } 
  .hero-logo {
      height: 173px;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     margin-top:  20px;
+     margin-bottom:  20px;
  }    
  .hero-logo a {
      color: #212529;
      font-size: 58px;
-     
+     line-height: 79px;
     
    
  }
  .hero-logo b {
      position: relative;
      color: #00730C;
-     top: 20px;
+   
      
  }
  
@@ -101,10 +187,7 @@
  }
  
  
- .logo-call-quate {
-    
-     padding-left: 35px;
- }
+ 
  .hero-left-menu p {
      color: #676767;
      font-size: 18px;
@@ -112,9 +195,22 @@
    
  }
  .hero-top {
-     padding-bottom: 50px;
-     padding-right: 90px;
+     margin-bottom: 50px;
+     margin-right: 90px;
  }
+ .logo-call-quate {
+    width: 170px;
+    height: 50px;
+   
+    background-color: #00730C;
+    align-items: center;
+    display: flex;
+    padding-left: 35px;
+}
+ .logo-call-quate a {
+    font-size: 18px;
+  
+}
  .logo-quate {
      display: flex;
      width: 510px;
@@ -122,18 +218,24 @@
      padding-bottom: 58px;
      padding-left: 56px;
  }  
+ 
  .logo-quate p {
     
      padding-left: 30px;
      padding-right: 15px; 
     
  } 
+ .logo-call-arrow {
+    padding-left: 0;
+    padding-top: 0;
+ }
  .logo-quate-arrow {
      width: 20px;
      height: 16px;
      background-image: url(images/arrow-grey.svg);
      background-repeat: no-repeat;
-    
+    display: flex;
+   
      
  }
  .hero-left-circle {
