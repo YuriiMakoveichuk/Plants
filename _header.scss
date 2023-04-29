@@ -119,6 +119,7 @@
      align-items: center;
      display: flex;
     margin-left: 149px;
+    margin-right: 40px;
  }
  
  
@@ -128,14 +129,25 @@
      background-position: center;
      background-image: url(images/group-mobile.svg);
      background-repeat: no-repeat;
-    
+    padding-left: 30px;
  }
  
  .logo-call a {
      display: none;
  }
- 
-
+ .logo-segment {
+    width: 30px;
+    height: 19px;
+    display: block;
+ }
+ .segment {
+    width: 18px;
+ }
+.logo-segment-menu {
+    height: 2px;
+    background-color: #00730C;
+    margin-bottom: 5px;
+}
 
 
 
@@ -343,6 +355,8 @@
     text-decoration: none;   
     display: block;
 }
-
+.logo-segment {
+    display: none;
+}
 
 }

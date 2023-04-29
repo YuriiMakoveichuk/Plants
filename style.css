@@ -131,6 +131,7 @@
   align-items: center;
   display: flex;
   margin-left: 149px;
+  margin-right: 40px;
 }
 
 .logo-call-img {
@@ -139,10 +140,27 @@
   background-position: center;
   background-image: url(images/group-mobile.svg);
   background-repeat: no-repeat;
+  padding-left: 30px;
 }
 
 .logo-call a {
   display: none;
+}
+
+.logo-segment {
+  width: 30px;
+  height: 19px;
+  display: block;
+}
+
+.segment {
+  width: 18px;
+}
+
+.logo-segment-menu {
+  height: 2px;
+  background-color: #00730C;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 1120px) {
@@ -320,11 +338,24 @@
     text-decoration: none;
     display: block;
   }
+  .logo-segment {
+    display: none;
+  }
 }
 .hero-row {
   width: 100%;
   height: 687px;
   margin: 0 -15px;
+}
+
+.hero-left {
+  display: grid;
+}
+
+.hero-right {
+  display: grid;
+  margin-top: -5px;
+  margin-bottom: 48px;
 }
 
 .hero-right-menu {
@@ -333,11 +364,13 @@
   height: 240px;
   background-image: url(images/img-mobile.svg);
   background-repeat: no-repeat;
+  order: 1;
   position: relative;
 }
 
 .hero-left-menu {
   width: 346px;
+  order: 2;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -431,6 +464,35 @@
   padding-left: 12px;
 }
 
+.hero-left-circle {
+  display: flex;
+  margin-right: 1px;
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+.hero-circle {
+  width: 133px;
+  height: 32px;
+  display: flex;
+  background: linear-gradient(180deg, #FFF8F1 0%, #CBE5CE 100%);
+  border-radius: 32px;
+  align-items: center;
+  margin: 0 6px;
+}
+
+.hero-circle a {
+  font-size: 10px;
+  color: #212529;
+  line-height: 14px;
+}
+
+.hero-circle-figure {
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .hero-none {
   display: none;
 }
@@ -447,6 +509,7 @@
   }
   .hero-left-menu {
     width: 649px;
+    order: revert;
     padding-left: 5px;
     padding-right: 5px;
     position: relative;
@@ -539,7 +602,7 @@
   }
   .hero-left-circle {
     display: flex;
-    line-height: 20px;
+    margin: 0;
   }
   .hero-left-circle li {
     padding-right: 10px;
@@ -549,6 +612,7 @@
     height: 50px;
     display: flex;
     align-items: center;
+    background: none;
   }
   .hero-circle-figure {
     width: 50px;
@@ -557,7 +621,10 @@
     background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
     border-radius: 50%;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 17px;
+    font-size: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero-circle a {
     width: 89px;
@@ -565,5 +632,15 @@
     font-size: 16px;
     color: #212529;
     padding-left: 10px;
+    line-height: 20px;
   }
+}
+.main-row {
+  width: 100%;
+  height: 1265px;
+  margin: 0 -15px;
+}
+
+.services {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
