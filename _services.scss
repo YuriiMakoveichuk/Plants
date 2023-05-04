@@ -187,17 +187,19 @@
 .main-services-cards-clients-trust {
     background-image: url(images/clients-trust.svg);
 }
-.main-services-cards-btn {
+.cards-btn {
     width: 167px;
     height: 40px;
     color: white;
     background-color: #00730C;
     border-radius: 5px;
     border: none;
-    margin: 30px 89px 50px;
+    
     font-size: 16px;
 }
-
+.main-services-cards-btn {
+    margin: 30px 89px 50px;
+}
 
 @media(min-width:1120px) {
 
@@ -405,11 +407,13 @@
     .main-services-cards-clients-trust {
         background-image: url(images/clients-trust-web.svg);
     }
-    .main-services-cards-btn {
+    .cards-btn {
         width: 190px;
         height: 50px;
-       
         font-size: 18px;
+    }
+    .main-services-cards-btn {
+        
         margin-left: 27px;  
     }
     

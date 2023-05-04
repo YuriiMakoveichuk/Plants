@@ -851,15 +851,18 @@
   background-image: url(images/clients-trust.svg);
 }
 
-.main-services-cards-btn {
+.cards-btn {
   width: 167px;
   height: 40px;
   color: white;
   background-color: #00730C;
   border-radius: 5px;
   border: none;
-  margin: 30px 89px 50px;
   font-size: 16px;
+}
+
+.main-services-cards-btn {
+  margin: 30px 89px 50px;
 }
 
 @media (min-width: 1120px) {
@@ -1052,10 +1055,12 @@
   .main-services-cards-clients-trust {
     background-image: url(images/clients-trust-web.svg);
   }
-  .main-services-cards-btn {
+  .cards-btn {
     width: 190px;
     height: 50px;
     font-size: 18px;
+  }
+  .main-services-cards-btn {
     margin-left: 27px;
   }
 }
@@ -1064,27 +1069,29 @@
 }
 
 .why-choose {
+  display: block;
   height: 684px;
 }
 
 .why-choose-img {
   display: flex;
   list-style-type: none;
+  order: 2;
+  position: relative;
+  margin: 0 0 30px;
 }
 
 .main-why-choose-women {
-  display: flex;
   width: 345px;
   height: 217px;
   background-image: url(images/young-woman-mobile.svg);
-  margin: 50px 15px 30px;
+  margin-top: 50px;
 }
 
 .main-why-choose-text {
   width: 345px;
   height: 163px;
   color: white;
-  margin-left: 15px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -1099,6 +1106,7 @@
   height: 110px;
   font-size: 14px;
   padding-top: 15px;
+  line-height: 22px;
 }
 
 .main-why-chosee-cards {
@@ -1108,13 +1116,97 @@
   height: 64px;
 }
 
+.main-why-chosee-cards li {
+  margin-bottom: 20px;
+}
+
 .main-proper-take {
+  display: flex;
   width: 158px;
   height: 22px;
+  align-items: center;
+}
+
+.main-proper-take b {
+  display: none;
 }
 
 .main-proper-take a {
   text-decoration: none;
   color: white;
   font-size: 16px;
+}
+
+.main-proper-take-circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(images/arrow-green-why-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.main-why-choose-cards-btn {
+  margin: 30px 89px 50px;
+}
+
+@media (min-width: 1120px) {
+  .why-choose {
+    height: 659px;
+    display: grid;
+  }
+  .why-choose-img {
+    position: absolute;
+    margin-top: 64.5px;
+    margin-left: 742px;
+  }
+  .main-why-choose-women {
+    width: 672px;
+    height: 426px;
+    background-image: url(images/young-woman.svg);
+  }
+  .main-why-choose-text {
+    width: 656px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  .main-why-choose-text a {
+    font-size: 45px;
+  }
+  .main-why-choose-text p {
+    height: 120px;
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 30px;
+  }
+  .main-why-chosee-cards {
+    width: 600px;
+    height: 86px;
+  }
+  .main-proper-take {
+    display: flex;
+    width: 242px;
+    height: 33px;
+  }
+  .main-proper-take a {
+    display: none;
+  }
+  .main-proper-take b {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  .main-proper-take-circle {
+    width: 30px;
+    height: 30px;
+    background-image: url(images/arrow-green-why.svg);
+    margin-right: 10px;
+  }
+  .main-why-choose-cards-btn {
+    margin: 50px 0 112px;
+  }
 }/*# sourceMappingURL=style.css.map */
