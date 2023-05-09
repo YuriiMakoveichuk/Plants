@@ -1209,4 +1209,13 @@
   .main-why-choose-cards-btn {
     margin: 50px 0 112px;
   }
+}
+.working-process {
+  display: block;
+  height: 1090px;
+}
+
+.working-process-text {
+  width: 345px;
+  height: 163px;
 }/*# sourceMappingURL=style.css.map */
