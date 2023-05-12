@@ -1,0 +1,272 @@
+.main-what-clients {
+    background-color: #E6F6EA;
+    height: 585px;
+    color: #676767;
+}
+.what-clients {
+    position: relative;
+    display: flex;
+}
+
+
+.what-clients-text {
+    width: 375px;
+    height: 585px;
+    display: block;
+    padding-top: 50px;
+    position: absolute;
+    
+}
+.what-clients-text a {
+   
+    padding-left: 47.5px;
+    font-size: 28px;
+    line-height: 38px;
+    color: #212529;
+    
+    text-align: center;
+    text-decoration: none;
+   
+}
+.what-clients-text b {
+    color: #00730C;
+    
+}
+.what-clients-text p {
+    width: 345px;
+    height: 110px;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+  
+}
+
+.what-clients-slider {
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+   margin-top:  210px;
+   margin-left: 280px;
+   position: absolute;
+   z-index: 10;
+}
+.what-clients-slider-btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-btn-left {
+    background-image: url(images/slider-arrow-green.svg);
+    
+    
+}
+.slider-btn-right {
+    background-image: url(images/slider-arrow-white.svg);
+
+}
+.main-what-clients-saying {
+    width: 100%;
+    height: 341px;
+    display: flex;
+   
+    margin-top: 253px;
+    margin-left: 15px;
+    gap: 0;
+}
+
+
+.what-clients-saying {
+    width: 345px;
+    height: 431px;
+    background-color: white;
+   
+    display: block;
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+   
+
+}
+
+.what-clients-saying-img {
+    display: block;
+    width: 135px;
+    height: 183px;
+    background-image: url(images/clients-saying-mobile.svg);
+    margin:  20px 20px 40px;
+   
+}
+.two-coma {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/two-coma-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 20%;
+    position: relative;
+    margin-bottom: -20px;
+}
+.what-clients-saying-text-star {
+    width: 305px;
+    height: 109px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0  20px 15px;
+   
+}
+.one {
+    display: none;
+}
+.what-two {
+    display: none;
+}
+.what-three {
+    display: none;
+}
+.what-clients-saying-rating {
+    display: flex;
+}
+
+.what-clients-saying-rating a {
+    display: block;
+    width: 81px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #212529;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15px 0 2px;
+    
+}
+.what-clients-saying-rating p {
+    font-size: 12px;
+    width: 48px;
+    height: 16px;
+}
+.what-clients-saying-star {
+    width: 124px;
+    height: 25px;
+    margin-top: 22px;
+    display: flex;
+    margin-left: 80px;
+   
+}
+.clients-saying-star {
+    width: 20px;
+    height: 20px;
+    background-image: url(images/star-green-mobile.svg);
+    margin-right: 14px;
+}
+
+
+.main-frequently-asked {
+    height: 1000px;
+}
+
+
+
+
+
+
+@media(min-width:1120px) {
+    .what-clients-text {
+        width: 442px;
+        padding-top: 100px;
+    }
+    .what-clients-text a {
+        padding-left:0px;
+        font-size: 45px;
+        line-height: 61px;  
+    }
+   
+    .what-clients-text p {
+        width: 956px;
+        height: 60px;
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 30px;
+      
+    }
+    .what-clients-slider {
+        width: 130px;
+        margin-top:  200px;
+        right: 20px;
+    }
+    .what-clients-slider-btn {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .what-clients-saying {
+        width: 685px;
+        height: 341px;
+        background-color: white;
+        margin-left: 0;
+        display: flex;
+    }
+    .what-two {
+        display: flex;
+    }
+    .what-three {
+        display: none;
+    }
+    .main-what-clients-saying {
+       
+        margin-top: 301px;
+       margin-left: 0;
+        gap: 20px;
+    }
+    .what-clients-saying-img {
+        display: block;
+        width: 193px;
+        height: 276px;
+        background-image: url(images/clients-saying.svg);
+        margin:  32px 35px 32px 25px;
+       
+    }
+    .two-coma {
+        display: block;
+        width: 70px;
+        height: 70px;
+        background-image: url(images/two-coma.svg);
+        opacity: 100%;
+        margin-bottom: -40px;
+    }
+    .what-clients-saying-text-star {
+        width: 405px;
+        height: 150px;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 38px 32px 27px 0;
+       
+    }
+    .what-clients-saying-rating a {
+        width: 122px;
+        height: 33px;
+        font-size: 24px;
+        line-height: 33px;
+        margin: 27px  0 5px;
+    }
+    .what-clients-saying-rating p {
+        font-size: 14px;
+        width: 64px;
+        height: 25px;
+    }
+    .what-clients-saying-star {
+       margin-top: 46px;
+       margin-left: 150px;
+       
+    }
+    .clients-saying-star {
+        width: 20px;
+        height: 20px;
+        background-image: url(images/star-green-mobile.svg);
+        margin-right: 14px;
+    }
+    
+}
