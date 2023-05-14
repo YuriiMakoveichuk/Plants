@@ -19,11 +19,10 @@
 }
 .what-clients-text a {
    
-    padding-left: 47.5px;
+    padding-left: 32.5px;
     font-size: 28px;
     line-height: 38px;
     color: #212529;
-    
     text-align: center;
     text-decoration: none;
    
@@ -41,53 +40,17 @@
   
 }
 
-.what-clients-slider {
-    width: 65px;
-    display: flex;
-    justify-content: space-between;
-   margin-top:  210px;
-   margin-left: 280px;
-   position: absolute;
-   z-index: 10;
-}
-.what-clients-slider-btn {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #00730C;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.slider-btn-left {
-    background-image: url(images/slider-arrow-green.svg);
-    
-    
-}
-.slider-btn-right {
-    background-image: url(images/slider-arrow-white.svg);
 
-}
 .main-what-clients-saying {
-    width: 100%;
     height: 341px;
     display: flex;
-   
-    margin-top: 253px;
-    margin-left: 15px;
-    gap: 0;
 }
-
-
 .what-clients-saying {
     width: 345px;
     height: 431px;
     background-color: white;
-   
     display: block;
     box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
-   
-
 }
 
 .what-clients-saying-img {
@@ -117,15 +80,7 @@
     margin: 0  20px 15px;
    
 }
-.one {
-    display: none;
-}
-.what-two {
-    display: none;
-}
-.what-three {
-    display: none;
-}
+
 .what-clients-saying-rating {
     display: flex;
 }
@@ -161,13 +116,68 @@
     background-image: url(images/star-green-mobile.svg);
     margin-right: 14px;
 }
-
-
-.main-frequently-asked {
-    height: 1000px;
+.what-two {
+    display: none;
+}
+.what-three {
+    display: none;
 }
 
+.slick-initialized .slick-slide {
+    display: flex;
+    margin-left: 0;
+    gap: 5px;
+}
 
+.slick-slider {
+    margin-top: -323px;
+}
+
+.slick-prev, .slick-next {
+    margin-top: -205px;
+    display: block;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    font-size: 0%;
+}
+
+.slick-prev {
+    left: 250px;
+    right: auto;
+    background: url(images/slider-arrow-green.svg); 
+    width: 30px;
+    height: 30px;  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slick-next {
+    left: 300px;
+    right: auto;
+    background: url(images/slider-arrow-white.svg);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slick-prev:hover, .slick-prev:focus {
+    background: url(images/slider-arrow-green.svg);
+    background-color: #00730C;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.slick-next:hover, .slick-next:focus {
+    background: url(images/slider-arrow-white.svg);
+    background-color: #00730C;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slick-prev:before {
+    font-size: 0;
+   
+  }
+  .slick-next:before {
+    font-size: 0;
+  }
 
 
 
@@ -175,7 +185,7 @@
 @media(min-width:1120px) {
     .what-clients-text {
         width: 442px;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .what-clients-text a {
         padding-left:0px;
@@ -191,36 +201,16 @@
         line-height: 30px;
       
     }
-    .what-clients-slider {
-        width: 130px;
-        margin-top:  200px;
-        right: 20px;
-    }
-    .what-clients-slider-btn {
-        display: block;
-        width: 50px;
-        height: 50px;
-    }
-    
+
     .what-clients-saying {
         width: 685px;
         height: 341px;
         background-color: white;
         margin-left: 0;
         display: flex;
+        
     }
-    .what-two {
-        display: flex;
-    }
-    .what-three {
-        display: none;
-    }
-    .main-what-clients-saying {
-       
-        margin-top: 301px;
-       margin-left: 0;
-        gap: 20px;
-    }
+   
     .what-clients-saying-img {
         display: block;
         width: 193px;
@@ -269,4 +259,39 @@
         margin-right: 14px;
     }
     
+    .slick-initialized .slick-slide {
+        display: flex;
+        margin-left: 2.5px;
+        gap: 10px;
+    }
+    
+    .slick-slider {
+        margin-top: -301px;
+    }
+    
+    .slick-prev, .slick-next {
+        margin-top: -225px;
+       
+    }
+    
+    .slick-prev {
+        left: auto;
+        right: 95px;
+        background: url(images/slider-arrow-green.svg); 
+        width: 50px;
+        height: 50px;  
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .slick-next {
+        left: auto;
+        right: 15px;
+        background: url(images/slider-arrow-white.svg);
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+   
+      
 }
