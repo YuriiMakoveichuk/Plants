@@ -116,17 +116,12 @@
     background-image: url(images/star-green-mobile.svg);
     margin-right: 14px;
 }
-.what-two {
-    display: none;
-}
-.what-three {
-    display: none;
-}
+
 
 .slick-initialized .slick-slide {
     display: flex;
     margin-left: 0;
-    gap: 5px;
+    gap: 25px;
 }
 
 .slick-slider {
@@ -153,14 +148,15 @@
 .slick-next {
     left: 300px;
     right: auto;
-    background: url(images/slider-arrow-white.svg);
+    background: url(images/arrow-green-right.svg);
     width: 30px;
     height: 30px;
     background-position: center;
     background-repeat: no-repeat;
+   
 }
 .slick-prev:hover, .slick-prev:focus {
-    background: url(images/slider-arrow-green.svg);
+    background: url(images/arrow-white-left.svg);
     background-color: #00730C;
     background-position: center;
     background-repeat: no-repeat;  
@@ -177,9 +173,10 @@
   }
   .slick-next:before {
     font-size: 0;
+   
   }
 
-
+  
 
 
 @media(min-width:1120px) {
@@ -277,7 +274,7 @@
     .slick-prev {
         left: auto;
         right: 95px;
-        background: url(images/slider-arrow-green.svg); 
+       
         width: 50px;
         height: 50px;  
         background-position: center;
@@ -286,7 +283,7 @@
     .slick-next {
         left: auto;
         right: 15px;
-        background: url(images/slider-arrow-white.svg);
+       
         width: 50px;
         height: 50px;
         background-position: center;

@@ -138,6 +138,10 @@
   margin-right: 40px;
 }
 
+.logo-call:hover {
+  background-color: greenyellow;
+}
+
 .logo-call-img {
   width: 20px;
   height: 20px;
@@ -437,6 +441,10 @@
   border-radius: 5px;
   padding-left: 10px;
   margin-left: 21px;
+}
+
+.logo-call-quate:hover {
+  background-color: greenyellow;
 }
 
 .logo-call-arrow {
@@ -865,6 +873,10 @@
   font-size: 16px;
 }
 
+.cards-btn:hover {
+  background-color: greenyellow;
+}
+
 .main-services-cards-btn {
   margin: 30px 89px 50px;
 }
@@ -1214,16 +1226,6 @@
     margin: 50px 0 112px;
   }
 }
-.working-process {
-  display: block;
-  height: 1090px;
-}
-
-.working-process-text {
-  width: 345px;
-  height: 163px;
-}
-
 .main-what-clients {
   background-color: #E6F6EA;
   height: 585px;
@@ -1342,18 +1344,10 @@
   margin-right: 14px;
 }
 
-.what-two {
-  display: none;
-}
-
-.what-three {
-  display: none;
-}
-
 .slick-initialized .slick-slide {
   display: flex;
   margin-left: 0;
-  gap: 5px;
+  gap: 25px;
 }
 
 .slick-slider {
@@ -1381,7 +1375,7 @@
 .slick-next {
   left: 300px;
   right: auto;
-  background: url(images/slider-arrow-white.svg);
+  background: url(images/arrow-green-right.svg);
   width: 30px;
   height: 30px;
   background-position: center;
@@ -1389,7 +1383,7 @@
 }
 
 .slick-prev:hover, .slick-prev:focus {
-  background: url(images/slider-arrow-green.svg);
+  background: url(images/arrow-white-left.svg);
   background-color: #00730C;
   background-position: center;
   background-repeat: no-repeat;
@@ -1492,7 +1486,6 @@
   .slick-prev {
     left: auto;
     right: 95px;
-    background: url(images/slider-arrow-green.svg);
     width: 50px;
     height: 50px;
     background-position: center;
@@ -1501,7 +1494,6 @@
   .slick-next {
     left: auto;
     right: 15px;
-    background: url(images/slider-arrow-white.svg);
     width: 50px;
     height: 50px;
     background-position: center;
